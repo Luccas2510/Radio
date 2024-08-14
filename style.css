@@ -1,0 +1,82 @@
+body{
+    margin: 0px 120px 0px 120px;
+    background-image: url(../Radio/imagens/fundo.jpg); background-repeat: repeat-z;
+}
+h1{
+    background-color: purple;
+    padding: 30px;
+    text-align: center;
+}
+.Titulo{
+    border-radius: 80px;
+}
+h2, h3{
+    background-color: turquoise;
+    margin: 0px 50px 0px 50px;
+}
+h1, h2, h3{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.foto{
+    display: flex;
+    justify-content: left;
+}
+img{
+    border-radius: 80px;
+    width: 100px;
+    height: 100px;
+}
+audio
+{
+    margin: 0px 50px 0px 50px;
+-webkit-transition:all 0.5s linear;
+-moz-transition:all 0.5s linear;
+-o-transition:all 0.5s linear;
+transition:all 0.5s linear;
+-moz-box-shadow: 2px 2px 4px 0px purple;
+-webkit-box-shadow:  2px 2px 4px 0px purple;
+box-shadow: 2px 2px 4px 0px purple;
+-moz-border-radius:7px 7px 7px 7px ;
+-webkit-border-radius:7px 7px 7px 7px ;
+border-radius:7px 7px 7px 7px ;
+}
+audio:hover, audio:focus, audio:active
+{
+    margin: 0px 50px 0px 50px;
+-webkit-box-shadow: 15px 15px 20px purple;
+-moz-box-shadow: 15px 15px 20px purple;
+box-shadow: 15px 15px 20px purple;
+-webkit-transform: scale(1.05);
+-moz-transform: scale(1.05);
+transform: scale(1.05);
+}
+.radio{
+    display: flex;
+    align-items: center;
+    padding-top: 50px;
+    margin: 0px 50px 0px 50px;
+}
+.Fundo{
+    background-color: turquoise;
+    border-radius: 50px;
+}
+video
+{
+    align-items: center;
+-webkit-transition:all 0.5s linear;
+-moz-transition:all 0.5s linear;
+-o-transition:all 0.5s linear;
+transition:all 0.5s linear;
+-moz-box-shadow: 2px 2px 4px 0px purple;
+-webkit-box-shadow:  2px 2px 4px 0px purple;
+box-shadow: 2px 2px 4px 0px purple;
+-moz-border-radius:7px 7px 7px 7px ;
+-webkit-border-radius:7px 7px 7px 7px ;
+border-radius:7px 7px 7px 7px ;
+}
+.Films{
+    display: flex;
+    align-items: center;
+    padding-top: 50px;
+    margin: 0px 50px 0px 50px;
+}
